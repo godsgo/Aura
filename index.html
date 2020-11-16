@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="header__items">
+      <div class="header__item-menu">
+          <button class="hamburger hamburger--squeeze" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+      </div>
+      <div class="header__item-logo">
+<!--        <span>AURA</span>-->
+        <img src="assets/icon/logo.png" style="width: 100px" alt="">
+      </div>
+      <div class="header__item-login">
+        <span>
+          <a href="#">S</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="main">
+  <!-- ********* instruments *********-->
+  <div class="main__item-instruments">
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/dashed-line.png" style="width: 24px; height: 24px" alt="">
+<!--        <object type="image/svg+xml" data="assets/icon/dashed-line.svg" width="24" height="24">-->
+<!--           Your browser does not support SVG-->
+<!--        </object>-->
+      </span>
+    </div>
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/selection.png" style="width: 24px; height: 24px" alt="">
+<!--        <object type="image/svg+xml" data="assets/icon/selection.svg" width="24" height="24">-->
+<!--           Your browser does not support SVG-->
+<!--        </object>-->
+      </span>
+    </div>
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/paintbrush.png" style="width: 24px; height: 24px" alt="">
+      </span>
+    </div>
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/eraser.png" style="width: 24px; height: 24px" alt="">
+      </span>
+    </div>
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/fontT.png" style="width: 24px; height: 24px" alt="">
+      </span>
+    </div>
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/circle.png" style="width: 24px; height: 24px" alt="">
+      </span>
+    </div>
+    <div class="instruments__item">
+      <span class="instruments__item-bg">
+        <img src="assets/icon/rectangle.png" style="width: 24px; height: 24px" alt="">
+      </span>
+    </div>
+  <!-- ********* instruments *********-->
+
+  <!-- ********* input-type-color *********-->
+    <div class="instruments__item-color--fill">
+      <div class="item__color--name">Fill</div>
+      <input type="color" class="item__color--fill-bg">
+    </div>
+    <div class="instruments__item-color--stroke">
+      <div class="item__color--name">Stroke</div>
+      <input type="color" class="item__color--stroke-bg">
+    </div>
+  </div>
+  <!-- ********* input-type-color *********-->
+
+  <!-- ********* canvas *********-->
+  <div class="canvas">
+    <canvas id="myCanvas" width="900px" height="500px" style="background: white"></canvas>
+  </div>
+  <!-- ********* canvas *********-->
+
+  <!-- ********* layers *********-->
+  <div class="layers__items">
+    <div class="layer__item-header">
+      <div class="layer__header-name">Layer</div>
+      <div class="layer__header-icon">
+        <div class="layer__header-add">
+          <img src="assets/icon/plus.png" style="width: 20px" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="layers__item-main">
+<!--      <div class="layer__item-layer">-->
+<!--        <div class="layer__eye">-->
+<!--          <img src="assets/icon/eye.png" style="width: 20px;" alt="">-->
+<!--        </div>-->
+<!--        <div class="layer__name">Layer 01</div>-->
+<!--        <div class="layer__opacity">100%</div>-->
+<!--      </div>-->
+    </div>
+
+    
+  </div>
+  <!-- ********* layers *********-->
+
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
